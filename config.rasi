@@ -1,0 +1,17 @@
+configuration {
+  display-drun: "Applications";
+  display-window: "Windows:";
+  drun-display-format: "{icon}{name}";
+  font: "JetBrainsMono Nerd Font Medium 10";
+  modi: "window,run,drun";
+  show-icons: true;
+  icon-theme: "candy icon";
+}
+
+window {
+        fullscreen: false;
+        width: 100%;
+        height: 100%;
+    }
+
+@import "~/.cache/wal/colors-rofi-dark"
